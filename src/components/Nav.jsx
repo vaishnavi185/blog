@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-import 'font-awesome/css/font-awesome.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'; // Import the necessary icons
 
 import './nav.css';
 
@@ -34,9 +35,9 @@ function Nav() {
           </div>
 
           <div className="social-icons">
-            <a href="#facebook"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com"><FontAwesomeIcon icon={faInstagram} flip="horizontal" /></a>
+            <a href="https://www.facebook.com"><FontAwesomeIcon icon={faFacebook} /></a> {/* Fixed this line */}
+            <a href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a> {/* Fixed this line */}
           </div>
         </nav>
       </Router>

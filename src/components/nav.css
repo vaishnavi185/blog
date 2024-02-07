@@ -1,38 +1,63 @@
-/* Navbar.css */
-
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-  }
-  
-  .logo h1 {
-    font-size: 1.5em;
-    font-weight: 400;
-    font-family: 'Times New Roman', Times, serif;
- 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #F7F3F0;
+  color: rgb(42, 40, 40);
+}
 
-  }
-  
-  .nav-links ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  .social-icons a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2em;
-    margin-left: 10px;
-  }
-  
+.logo h1 {
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0; /* Remove default margin */
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(51, 48, 48);
+  font-family: 'Nunito', sans-serif;
+}
+.nav-links :hover{
+  color: black;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  color: rgb(91, 83, 83);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.social-icons a::after {
+  color: inherit; /* This will inherit the real color of the icon */
+}
+.social-icons a:hover {
+  color: inherit; /* This will inherit the real color of the icon */
+}
+
+/* Specific color for each icon on hover */
+.social-icons a:hover[href="https://www.facebook.com"] {
+  color: #4267B2; /* Facebook blue */
+}
+
+.social-icons a:hover[href="https://twitter.com"] {
+  color: #1DA1F2; /* Twitter light blue */
+}
+
+.social-icons a:hover[href="https://www.instagram.com"] {
+  color: #E1306C; /* Instagram red/pink */
+}
