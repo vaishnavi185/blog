@@ -43,21 +43,21 @@
 }
 
 .social-icons a::after {
-  color: inherit; /* This will inherit the real color of the icon */
+  color: inherit; 
 }
 .social-icons a:hover {
-  color: inherit; /* This will inherit the real color of the icon */
+  color: inherit; 
 }
 
-/* Specific color for each icon on hover */
+
 .social-icons a:hover[href="https://www.facebook.com"] {
-  color: #4267B2; /* Facebook blue */
+  color: #4267B2; 
 }
 
 .social-icons a:hover[href="https://twitter.com"] {
-  color: #1DA1F2; /* Twitter light blue */
+  color: #1DA1F2; 
 }
 
 .social-icons a:hover[href="https://www.instagram.com"] {
-  color: #E1306C; /* Instagram red/pink */
+  color: #E1306C; 
 }
