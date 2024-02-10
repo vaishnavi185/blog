@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './tailwind.css';
+
 
 
 export default function home() {
