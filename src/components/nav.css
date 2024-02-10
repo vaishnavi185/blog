@@ -37,7 +37,7 @@
 }
 
 .social-icons a {
-  color: rgb(91, 83, 83);
+  color: rgb(246, 180, 147);
   text-decoration: none;
   font-size: 1.2em;
 }
@@ -47,6 +47,7 @@
 }
 .social-icons a:hover {
   color: inherit; 
+  
 }
 
 

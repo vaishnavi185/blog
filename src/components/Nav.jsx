@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'; // Import the necessary icons
-
+import Home from './Home.jsx';
 import './nav.css';
 
 function Nav() {
@@ -17,7 +17,7 @@ function Nav() {
           <div className="nav-links">
             <ul>
               <li>
-                <Link to="#home">Home</Link>
+                <Link to="#HOME">Home</Link>
               </li>
               <li>
                 <Link to="#product">Product</Link>
@@ -41,6 +41,8 @@ function Nav() {
           </div>
         </nav>
       </Router>
+      <Home></Home>
+      
     </>
   );
 }
