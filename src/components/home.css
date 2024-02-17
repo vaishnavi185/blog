@@ -1,0 +1,29 @@
+.container{
+    display:  flex;
+    margin-top: 100px;
+    gap: 3px;
+}
+.text h1{
+   font-weight: bold;
+   font-size: 60px;
+   color: rgb(33, 32, 32);
+}
+.text{
+    margin-left: 160px;
+    font-size:30px;
+}
+.imgage {
+    border-radius: 50px;
+    background-image: url("./Screenshot 2024-02-12 093013.png");
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    width: 500px;
+    height: 600px;
+    margin-left: 140px;
+}
+.container1{
+    width: 100px;
+    background-color:aquamarine;
+    height: 600px;
+    display: inline;
+}
